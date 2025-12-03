@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🚀 Projeto de Estudos Next.js
 
-## Getting Started
+Este repositório contém meus estudos e experimentos com **React**, **Tailwind CSS**, e principalmente **Next.js**, explorando tanto a arquitetura do **Pages Router** quanto do **App Router**, padrões de busca de dados e tecnologias principais do Next.js.
 
-First, run the development server:
+## 📚 O que estou aprendendo
 
+- ⚛️ **React** - Arquitetura de componentes, hooks e boas práticas
+- 🎨 **Tailwind CSS** - Framework CSS utility-first
+- ⚡ **Next.js Pages Router** - Roteamento tradicional baseado em arquivos
+- 🔄 **Next.js App Router** - Server components modernos e layouts
+- 📡 **Data Fetching** - SSR, SSG, ISR e client-side fetching
+- 🛠️ **Recursos do Next.js** - API routes, otimização de imagens, fontes e mais
+
+## 🖼️ Capturas de Tela
+
+*Capturas de tela serão adicionadas conforme o projeto evolui*
+
+<!-- 
+![Página Inicial](./screenshots/home.png)
+![Dashboard](./screenshots/dashboard.png)
+![Funcionalidades](./screenshots/features.png)
+-->
+
+## 🏃‍♂️ Como Rodar
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js instalado (v18 ou superior recomendado).
+
+### Instalação
+
+1. Clone este repositório:
 ```bash
+git clone <url-do-seu-repo>
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver a aplicação.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🛠️ Tecnologias Utilizadas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **[Next.js](https://nextjs.org)** - Framework React com renderização híbrida
+- **[React](https://react.dev)** - Biblioteca para interfaces
+- **[Tailwind CSS](https://tailwindcss.com)** - Framework CSS utility-first
+- **[TypeScript](https://www.typescriptlang.org)** - JavaScript com tipagem
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 Recursos de Aprendizado
 
-## Learn More
+- [Documentação do Next.js](https://nextjs.org/docs)
+- [Documentação do React](https://react.dev)
+- [Documentação do Tailwind CSS](https://tailwindcss.com/docs)
+- [Aprenda Next.js](https://nextjs.org/learn)
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Notas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Este é um projeto de aprendizado onde experimento diferentes recursos do Next.js, padrões de roteamento e conceitos modernos do React. Sinta-se à vontade para explorar o código!
