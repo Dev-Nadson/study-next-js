@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className={`${geistSans.className} ${geistMono.className} flex min-h-screen justify-center font-sans bg-black`}>
+    <div>
     </div>
   );
 }
