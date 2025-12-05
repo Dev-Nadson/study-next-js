@@ -7,8 +7,8 @@ function HeroSection() {
     return (
         <section className="p-5 relative flex items-center justify-center mt-16 max-w-7xl m-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-80 md:h-144 items-center">
-                <div className="flex flex-col items-center justify-center gap-4 md:items-start lg:it">
-                    <h1 className="text-gray-100 text-4xl font-extrabold">
+                <div className="flex flex-col items-center justify-center gap-4 md:items-start text-center md:text-left">
+                    <h1 className="text-gray-100 text-4xl font-extrabold ">
                         Venda seus produtos como afiliado em um único lugar
                     </h1>
 
@@ -26,7 +26,7 @@ function HeroSection() {
                     </div>
 
                     <div className="text-white flex flex-col gap-2 mt-5 items-center md:items-start lg:items-start">
-                        <Button className="bg-blue-400 hover:bg-blue-500 rounded-full w-fit text-white" asChild >
+                        <Button className="bg-blue-500 hover:bg-blue-6items-center00 rounded-full w-fit text-white" asChild >
                             <Link href="/criar-loja">
                                 Criar Loja Grátis
                                 <ArrowRight className="" />
