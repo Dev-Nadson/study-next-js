@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "../ui/button"
+import { ActiveLink } from "../ActiveLink"
 
 function Header() {
     return <>
@@ -9,9 +10,11 @@ function Header() {
                     <Link href="/">Logo</Link>
 
                     <nav className="flex items-center gap-6">
-                        <Link href="/">Início</Link>
-                        <Link href="/blog">Blog</Link>
-                        <Button variant="secondary">Começar</Button>
+                        <ActiveLink href="/">Início</ActiveLink> {/* Pode fazer tanto com tag, assim como com properties */}
+                        <ActiveLink href="/blog" children="Blog" />
+                        <Button variant="secondary" asChild>
+                            <Link href="/comecar">Começar</Link>
+                        </Button>
                     </nav>
                 </div>
             </div>
