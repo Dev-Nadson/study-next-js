@@ -40,7 +40,6 @@ function FeatureSection() {
                     </Button>
                 </div>
             </div>
-
         </section>
     )
 }
