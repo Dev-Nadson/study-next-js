@@ -11,7 +11,7 @@ function FeatureSection() {
             <Container TagText="Prático" FeatureText="Venda para seu público através de uma plataforma única" />
 
             <div className="col-span-full flex flex-col gap-2">
-                <div className="grid space-y-10 grid-cols-1 md:grid-cols-2 md:gap-4 rounded-lg md:space-y-1 bg-zinc-900 p-6 md:p-12 hover:scale-103 transition-all">
+                <div className="grid space-y-10 grid-cols-1 md:grid-cols-2 md:gap-4 rounded-lg md:space-y-1 bg-zinc-900 p-6 md:p-12 hover:scale-103 transition-all duration-400">
                     <div className="flex flex-col gap-4 md:gap-0">
                         <div className="flex flex-col space-y-4">
                             <span className="text-blue-200 bg-blue-900 px-2 py-1 w-fit rounded-sm uppercase">Personalizável</span>
