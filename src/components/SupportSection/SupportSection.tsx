@@ -1,4 +1,4 @@
-import { PaintbrushVertical } from "lucide-react"
+import { HeartHandshake, PaintbrushVertical, Store } from "lucide-react"
 import { Card } from "./Card"
 
 function SupportSection() {
@@ -12,8 +12,8 @@ function SupportSection() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <Card title="Personalize o seu site" text="Adicione sua logo, favicon, cores no seu catálogo e tenha tudo com a sua cara." icon={PaintbrushVertical} />
-                    <Card title="Venda de qualquer loja" text="Não importa a loja, o Site.Set permite que você insera qualquer link de afiliado." icon={PaintbrushVertical} bgColor="bg-teal-900" iconColor="bg-teal-700" />
-                    <Card title="Receba suporte amigável" text="Nossa equipe estará sempre pronta para te atender para ajudar no que for preciso." icon={PaintbrushVertical} />
+                    <Card title="Venda de qualquer loja" text="Não importa a loja, o Site.Set permite que você insera qualquer link de afiliado." icon={Store} bgColor="bg-teal-900" iconColor="bg-teal-700" />
+                    <Card title="Receba suporte amigável" text="Nossa equipe estará sempre pronta para te atender para ajudar no que for preciso." icon={HeartHandshake} />
                 </div>
             </div>
 
