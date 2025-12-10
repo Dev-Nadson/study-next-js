@@ -1,0 +1,5 @@
+export * from "./HeroSection"
+export * from "./FeatureSection"
+export * from "./SupportSection"
+export * from "./CostumerStorySection"
+export * from "./CallToAction"

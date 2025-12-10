@@ -1,5 +1,5 @@
-import { Footer } from "../Footer"
-import { Header } from "../Header"
+import { Footer } from "@/components/Layout"
+import { Header } from "@/components/Layout"
 
 interface ILayoutProps {
     children: React.ReactNode

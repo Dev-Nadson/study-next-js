@@ -1,12 +1,12 @@
 import Link from "next/link"
-import { Button } from "../ui/button"
+import { Button } from "@/components/ui/button"
 import { ArrowRight, Store } from "lucide-react"
 
 function CallToAction() {
     return (
         <section className="">
             <div className="flex w-fit bg-teal-900 p-3 md:p-4.5 rounded-full m-auto relative translate-y-1/2">
-                <Store className="size-6 md:size-10 text-teal-300" />
+                <Store className="size-6 md:size-8 text-teal-300" />
             </div>
 
             <div className="flex min-h-65 flex-col gap-4 md:gap-12 py-8 bg-[url('/background-footer.svg')] bg-linear-to-b from-cyan-950/20 to-transparent px-5 md:py-40 items-center justify-center bg-cover bg-no-repeat bg-center">

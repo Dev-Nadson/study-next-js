@@ -1,7 +1,7 @@
 import Link from "next/link"
-import { Button } from "../ui/button"
-import { ActiveLink } from "../ActiveLink"
-import { Logo } from "../Logo"
+import { Button } from "@/components/ui/button"
+import { ActiveLink } from "@/components/ActiveLink"
+import { Logo } from "@/components/Logo"
 
 function Header() {
     return <>
