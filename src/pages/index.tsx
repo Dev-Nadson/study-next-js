@@ -1,3 +1,4 @@
+import { CallToAction } from "@/components/CallToAction";
 import { CostumerStorySection } from "@/components/CostumerStorySection";
 import { FeatureSection } from "@/components/FeatureSection";
 import { HeroSection } from "@/components/HeroSection";
@@ -11,6 +12,7 @@ export default function Home() {
         <FeatureSection />
         <SupportSection />
         <CostumerStorySection />
+        <CallToAction />
       </article>
     </>
   );
