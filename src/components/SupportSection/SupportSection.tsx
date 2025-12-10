@@ -7,7 +7,7 @@ function SupportSection() {
 
             <div className="m-auto p-5 max-w-7xl space-y-15">
                 <div className="flex flex-col items-center">
-                    <h2 className="text-5xl font-bold text-center max-w-185">Sua loja de afiliados, simples, do jeito que deveria ser</h2>
+                    <h2 className="text-2xl md:text-5xl font-bold text-center max-w-185">Sua loja de afiliados, simples, do jeito que deveria ser</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
