@@ -7,7 +7,9 @@ function LandingPage() {
             <FeatureSection />
             <SupportSection />
             <CostumerStorySection />
-            <CallToAction />
+            <div className="relative translate-y-1/14">
+                <CallToAction />
+            </div>
         </article>
     )
 }

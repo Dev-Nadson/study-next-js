@@ -21,7 +21,7 @@ const CostumerStory = [
 
 function CostumerStorySection() {
     return (
-        <section className="flex flex-col py-8 px-5 md:py-40 items-center">
+        <section className="flex flex-col py-8 px-5 md:pt-40 md:pb-30  items-center">
             <div className="flex flex-col items-center gap-12 max-w-7xl">
                 <h2 className="text-2xl md:text-5xl font-bold text-center max-w-185">
                     Quem utiliza, aprova!

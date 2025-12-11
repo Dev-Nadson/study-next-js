@@ -4,7 +4,7 @@ import { ArrowRight, Store } from "lucide-react"
 
 function CallToAction() {
     return (
-        <section className="">
+        <section>
             <div className="flex w-fit bg-teal-900 p-3 md:p-4.5 rounded-full m-auto relative translate-y-1/2">
                 <Store className="size-6 md:size-8 text-teal-300" />
             </div>
