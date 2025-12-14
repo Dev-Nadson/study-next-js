@@ -1,3 +1,4 @@
+import { Search } from "@/components/Search";
 import { CallToAction } from "@/Templates/LandingPage/Sections";
 
 export default function BlogPage() {
@@ -21,7 +22,7 @@ export default function BlogPage() {
 
             </header>
 
-
+            <Search />
 
             {/*
             <div className="">
